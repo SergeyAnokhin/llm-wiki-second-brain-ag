@@ -31,7 +31,11 @@ For each source file, follow this workflow:
 
 ### 1. Read the source completely
 
-Read the entire file. If the file contains image references, note them — read the images separately if they contain important information.
+Handle each file type appropriately:
+
+- **Markdown files** (`.md`): Read the entire file directly. If it contains image references, read the images separately if they contain important information.
+- **URL shortcut files** (`.url`): Parse the `URL=` line to extract the link. Then fetch and read the page content using `summarize <url>`, `web_fetch`, or the browser. Treat the fetched content as the source.
+- **Image files** (`.png`, `.jpg`, etc.): Read the image visually. If it contains text (screenshots, diagrams, terminal output), extract and describe all visible text content. This extracted text becomes the source material.
 
 ### 2. Discuss key takeaways with the user
 
@@ -120,7 +124,14 @@ Multiple files can be marked in one call:
 
     python .agents/skills/second-brain/scripts/tracking.py add raw/pages/file1.md raw/pages/file2.md
 
-### 9. Report results
+### 9. Update search index
+
+If `qmd` is installed, refresh the search index so new wiki pages are searchable:
+
+    qmd update
+    qmd embed
+
+### 10. Report results
 
 Tell the user what was done:
 - Pages created (with links)

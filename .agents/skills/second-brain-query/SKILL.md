@@ -63,6 +63,38 @@ If the user agrees:
 2. Add an entry to `wiki/index.md` under Synthesis
 3. Append to `wiki/log.md`: `## [YYYY-MM-DD] query | Question summary`
 
+## Save Query Log
+
+After answering every question, save the Q&A to the output directory:
+
+1. **Filename format:** `output/queries/YYYY-MM-DD_HHmm_slugified-question.md`
+   - Slugify the question: lowercase, replace spaces with hyphens, remove special characters
+   - Truncate at 100 characters, cutting at the last whole word
+   - Example: `output/queries/2026-05-08_0050_kak-rabotaet-config-flow-v-home-assistant.md`
+
+2. **File format:**
+
+       ---
+       question: "Original question text"
+       timestamp: YYYY-MM-DDTHH:MM:SS
+       wiki_pages_used:
+         - concepts/page-name.md
+         - sources/source-name.md
+       ---
+
+       # Original question text
+
+       ## Answer
+
+       [Full answer with [[wikilinks]]]
+
+       ## Sources
+
+       - [[Page Name 1]]
+       - [[Page Name 2]]
+
+3. Create the `output/queries/` directory if it doesn't exist.
+
 ## Conventions
 
 - **Search the wiki first.** Only go to raw sources if the wiki doesn't have the answer.
