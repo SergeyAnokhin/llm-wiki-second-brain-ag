@@ -18,9 +18,11 @@ Determine which files need ingestion:
 
 1. If the user specifies a file or files, use those
 2. If the user says "process new sources" or similar, detect unprocessed files:
-   - List all files in `raw/` (excluding `raw/assets/`)
-   - Read `wiki/log.md` and extract all previously ingested source filenames from `ingest` entries
-   - Any file in `raw/` not listed in the log is unprocessed
+   ```
+   python .agents/skills/second-brain/scripts/tracking.py next
+   ```
+   This returns the next unprocessed files with their full paths.
+   If the user asks for a specific number, pass it: `tracking.py next 3`
 3. If no unprocessed files are found, tell the user
 
 ## Process Each Source
@@ -108,7 +110,17 @@ Append:
     Processed source-filename.md. Created N new pages, updated M existing pages.
     New entities: [[Entity1]], [[Entity2]]. New concepts: [[Concept1]].
 
-### 8. Report results
+### 8. Mark source as processed
+
+For each source file that was successfully processed, mark it in the tracker:
+
+    python .agents/skills/second-brain/scripts/tracking.py add <path-to-raw-file>
+
+Multiple files can be marked in one call:
+
+    python .agents/skills/second-brain/scripts/tracking.py add raw/pages/file1.md raw/pages/file2.md
+
+### 9. Report results
 
 Tell the user what was done:
 - Pages created (with links)
