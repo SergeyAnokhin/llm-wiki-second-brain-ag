@@ -1,0 +1,18 @@
+{
+  "Building a Home Assistant Custom Component Part 1 Project Structure and Basics.md:897046c27d2d214fc496e5eae085fb8d67ba829e7607797f593360e9f7eccf56": {
+    "path": "pages/Building a Home Assistant Custom Component Part 1 Project Structure and Basics.md",
+    "processed_at": "2026-05-08"
+  },
+  "Building a Home Assistant Custom Component Part 2 Unit Testing and Continuous Integration.md:c00b20cc2c1846f8b3b4790db941b2bec68339fb1dc6bd540d3daf1e36a7e11a": {
+    "path": "pages/Building a Home Assistant Custom Component Part 2 Unit Testing and Continuous Integration.md",
+    "processed_at": "2026-05-08"
+  },
+  "Building a Home Assistant Custom Component Part 3 Config Flow.md:904cd82084e72e8c9c5397740a70635e063de4ab4d9a467b256a2c9594bf1e97": {
+    "path": "pages/Building a Home Assistant Custom Component Part 3 Config Flow.md",
+    "processed_at": "2026-05-08"
+  },
+  "__init__.py:50436784c1d6dcbface25743e1e053beb05cd005c994ca9fd1112785e6a8bca8": {
+    "path": "code/__init__.py",
+    "processed_at": "2026-05-08"
+  }
+}
