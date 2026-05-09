@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "057051288d168bee",
+        "id": "e979165abb4785e9",
         "type": "tabs",
         "children": [
           {
-            "id": "5e531f22070313cb",
+            "id": "49654f48d1ea8f0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/log.md",
+                "file": "wiki/sources/rassledovanie-problemy-sna.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "log"
-            }
-          },
-          {
-            "id": "fc76bcfcc17edffa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/concepts/dsm.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "dsm"
+              "title": "rassledovanie-problemy-sna"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/concepts/dsm.md",
+                "file": "wiki/sources/rassledovanie-problemy-sna.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для dsm"
+              "title": "Обратные ссылки для rassledovanie-problemy-sna"
             }
           },
           {
@@ -128,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wiki/concepts/dsm.md",
+                "file": "wiki/sources/rassledovanie-problemy-sna.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из dsm"
+              "title": "Исходящие ссылки из rassledovanie-problemy-sna"
             }
           },
           {
@@ -171,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/concepts/dsm.md",
+                "file": "wiki/sources/rassledovanie-problemy-sna.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура dsm"
+              "title": "Структура rassledovanie-problemy-sna"
             }
           }
         ]
@@ -198,24 +183,40 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "fc76bcfcc17edffa",
+  "active": "49654f48d1ea8f0a",
   "lastOpenFiles": [
-    "wiki/concepts/nas.md",
-    "wiki/sources/system-info.md",
-    "wiki/entities/synology-ds212j.md",
-    "wiki/entities/synology.md",
-    "wiki/entities/marvell-kirkwood-88f6281.md",
-    "wiki/concepts/dsm.md",
-    "wiki/concepts/options-flow.md",
-    "wiki/concepts/entity-class.md",
-    "wiki/concepts/asynchronous-integration-setup.md",
-    "wiki/entities/vs-code-devcontainer.md",
-    "wiki/entities/paulus-schoutsen.md",
-    "wiki/entities/home-assistant.md",
-    "wiki/entities/cookiecutter.md",
+    "wiki/sources/nfs-solution.md",
+    "wiki/sources/hibernation-debug.md",
     "wiki/log.md",
-    "wiki/sources/the-great-migration.md",
-    "wiki/sources/home-assistant-core-repository.md",
-    "wiki/index.md"
+    "wiki/index.md",
+    "raw/links/Drive Hibernation - DSM - Synology Knowledge Center.url",
+    "raw/image-with-text/nas-hibernation-settings.png",
+    "raw/image-with-text/nas-hibernation-log.png",
+    "scratch/fix_links.py",
+    "scratch/check_links_exact.py",
+    "scratch/check_links.py",
+    "scratch",
+    "raw/docs/Управление hibernation debug.md",
+    "wiki/concepts/power-schedule.md",
+    "wiki/concepts/disk-io.md",
+    "wiki/concepts/public-key-authentication.md",
+    "wiki/concepts/ssh.md",
+    "wiki/concepts/wake-on-lan.md",
+    "wiki/concepts/smb-cifs.md",
+    "wiki/concepts/nfs.md",
+    "wiki/entities/home-assistant.md",
+    "wiki/entities/onedrive.md",
+    "wiki/entities/dropbox.md",
+    "wiki/entities/hyperbackupvault.md",
+    "wiki/entities/cloudsync.md",
+    "wiki/entities/synofinder.md",
+    "wiki/entities/openssh.md",
+    "wiki/entities/proxmox.md",
+    "wiki/sources/rassledovanie-problemy-sna.md",
+    "wiki/sources/terminal-3.md",
+    "wiki/sources/terminal-2.md",
+    "wiki/sources/terminal-1.md",
+    "wiki/sources/ssh-connection-verbosity.md",
+    "wiki/sources/synoinfo-conf.md"
   ]
 }

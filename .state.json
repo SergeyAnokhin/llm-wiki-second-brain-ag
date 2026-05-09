@@ -18,5 +18,41 @@
   "System info.md:ca8a7ed50f9aa3c95b0e673f7135286ae0127c047fa517789c98e9fff5227bf9": {
     "path": "docs/System info.md",
     "processed_at": "2026-05-09"
+  },
+  "Управление hibernation debug.md:0ea51fa4e5026d2e6f4a9c10560a2cce5fab80ebe77d0a320a4dd465c69c8a77": {
+    "path": "docs/Управление hibernation debug.md",
+    "processed_at": "2026-05-09"
+  },
+  "Управление hibernation debug.md:261651de7a593cc170fdf928122e97c71b8bc8a3564d6e0025a55f2b2006a17e": {
+    "path": "docs/Управление hibernation debug.md",
+    "processed_at": "2026-05-09"
+  },
+  "cat etc synoinfo.conf.md:9549a0691448b0a3f88d44683b2ce9e1f3ffe4cde88b4ebc91702425c26f325f": {
+    "path": "docs/cat etc synoinfo.conf.md",
+    "processed_at": "2026-05-09"
+  },
+  "NFS solution.md:cba74eae5301e0141a3f904789f0cdb696c19cd2bc0e6c1730589961dcc4639a": {
+    "path": "docs/NFS solution.md",
+    "processed_at": "2026-05-09"
+  },
+  "ssh connection verbosity.md:5602e7ae0419e0849f7192508ef1461deb1ecb149220e751104655937ab48a00": {
+    "path": "docs/ssh connection verbosity.md",
+    "processed_at": "2026-05-09"
+  },
+  "terminal 1.md:0dd892ec9737644f74dc291a5f8654fc4f5db7d48d4e7945d9be563748bce5a8": {
+    "path": "docs/terminal 1.md",
+    "processed_at": "2026-05-09"
+  },
+  "terminal 2.md:c9ce3b222a9598dfb7478994ccdd7b0a109d0601ca699cade4ca3eb8ede2eeef": {
+    "path": "docs/terminal 2.md",
+    "processed_at": "2026-05-09"
+  },
+  "terminal 3.md:9c4e800eed2bf67038a21fdcc73a5251c4f0350713a4a3d0638deb378a297c89": {
+    "path": "docs/terminal 3.md",
+    "processed_at": "2026-05-09"
+  },
+  "Расследование проблемы сна Synology DS212j.md:3180f4a2f509dd1d797a22404076d098d8d5a11cf02fe12bb23ddf65937472da": {
+    "path": "docs/Расследование проблемы сна Synology DS212j.md",
+    "processed_at": "2026-05-09"
   }
 }

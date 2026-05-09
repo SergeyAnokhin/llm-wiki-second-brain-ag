@@ -70,12 +70,12 @@ Create a new file in `wiki/sources/` named after the source (slugified). Include
 
     ## Entities Mentioned
 
-    - [[Entity Name]] — brief context
+    - [[entity-name|Entity Name]] — brief context
     - ...
 
     ## Concepts Covered
 
-    - [[Concept Name]] — brief context
+    - [[concept-name|Concept Name]] — brief context
     - ...
 
 ### 4. Update entity and concept pages
@@ -98,13 +98,13 @@ For each entity (person, organization, product, tool) and concept (idea, framewo
 
 ### 5. Add wikilinks
 
-Ensure all related pages link to each other using `[[wikilink]]` syntax. Every mention of an entity or concept that has its own page should be linked.
+Ensure all related pages link to each other using the Obsidian alias syntax: `[[slugified-filename|Title Case Name]]`. Every mention of an entity or concept that has its own page should be linked.
 
 ### 6. Update wiki/index.md
 
 For each new page created, add an entry under the appropriate category header:
 
-    - [[Page Name]] — one-line summary (under 120 characters)
+    - [[page-slug|Page Name]] — one-line summary (under 120 characters)
 
 ### 7. Update wiki/log.md
 
@@ -112,7 +112,7 @@ Append:
 
     ## [YYYY-MM-DD] ingest | Source Title
     Processed source-filename.md. Created N new pages, updated M existing pages.
-    New entities: [[Entity1]], [[Entity2]]. New concepts: [[Concept1]].
+    New entities: [[entity1|Entity1]], [[entity2|Entity2]]. New concepts: [[concept1|Concept1]].
 
 ### 8. Mark source as processed
 
@@ -145,7 +145,7 @@ Tell the user what was done:
 - A single source typically touches **10-15 wiki pages**. This is normal and expected.
 - When new information contradicts existing wiki content, **update the wiki page and note the contradiction** with both sources cited.
 - **Prefer updating existing pages** over creating new ones. Only create a new page when the topic is distinct enough to warrant its own page.
-- Use `[[wikilinks]]` for all internal references. Never use raw file paths.
+- Use Obsidian alias syntax `[[slug|Display Name]]` for all internal references. Never use raw file paths or `[[Display Name]]` without alias, as it breaks link resolution.
 
 ## What's Next
 

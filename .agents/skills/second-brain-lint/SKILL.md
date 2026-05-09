@@ -17,22 +17,23 @@ Run all checks below, then present a consolidated report.
 
 ### 1. Broken wikilinks
 
-Scan all wiki pages for `[[wikilink]]` references. For each link, verify the target page exists. Report any broken links.
+Scan all wiki pages for `[[slug|Title Case]]` alias references. Extract the `slug` part (everything before the `|`). For each link, verify the target page (`slug.md`) exists.
+Flag any links that do not use the alias format (e.g., links containing spaces or capital letters without a `|` separator) as broken, because they will not resolve correctly in Obsidian.
 
 ```bash
 # Find all wikilinks across wiki pages
 grep -roh '\[\[[^]]*\]\]' wiki/ | sort -u
 ```
 
-Cross-reference against actual files in `wiki/`.
+Cross-reference the extracted slugs against actual `.md` files in `wiki/`.
 
 ### 2. Orphan pages
 
-Find pages with no inbound links — no other page references them via `[[wikilink]]`.
+Find pages with no inbound links — no other page references them via their slug.
 
 For each `.md` file in `wiki/sources/`, `wiki/entities/`, `wiki/concepts/`, `wiki/synthesis/`:
-- Extract the page name (filename without extension)
-- Search all other wiki pages for `[[Page Name]]`
+- Extract the slug (filename without extension)
+- Search all other wiki pages for `[[slug` (to catch both `[[slug]]` and `[[slug|Title]]`)
 - If no other page links to it, it's an orphan
 
 ### 3. Contradictions

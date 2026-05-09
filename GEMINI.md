@@ -112,9 +112,10 @@ Filenames use **kebab-case** with `.md` extension. Page titles inside the file u
 - Concept pages: `wiki/concepts/concept-name.md` → `# Concept Name`
 - Synthesis pages: `wiki/synthesis/comparison-topic.md` → `# Comparison Topic`
 
-When creating `[[wikilinks]]`, use the page title (Title Case), not the filename:
-- Correct: `[[Entity Name]]`
-- Wrong: `[[entity-name]]`
+Because filenames use kebab-case and display titles use Title Case, you MUST use Obsidian's alias syntax for wikilinks to ensure they resolve correctly:
+- Correct: `[[entity-name|Entity Name]]` (points to the file, displays the Title)
+- Wrong: `[[Entity Name]]` (creates a broken link since the file is kebab-case)
+- Wrong: `[[entity-name]]` (links correctly but displays the ugly filename)
 
 To slugify a title into a filename: lowercase, replace spaces with hyphens, remove special characters, trim to reasonable length.
 

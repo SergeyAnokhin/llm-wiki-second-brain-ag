@@ -1,11 +1,13 @@
 ---
 tags: [software, os, synology]
-sources: [System info.md]
+sources: [System info.md, Управление hibernation debug.md]
 created: 2026-05-09
 updated: 2026-05-09
 ---
 
 # DSM
 
-DiskStation Manager (DSM) — проприетарная операционная система, созданная компанией [[Synology]] для своих сетевых хранилищ ([[NAS]]).
+DiskStation Manager (DSM) — проприетарная операционная система, созданная компанией [[synology|Synology]] для своих сетевых хранилищ ([[nas|NAS]]).
 Она управляет хранилищем, сетевыми подключениями и может включать функции анализа устройства и управления учетными записями.
+
+Глобальные настройки системы хранятся в конфигурационном файле [[synoinfo-conf|synoinfo.conf]] и могут безопасно изменяться с помощью встроенной утилиты [[synosetkeyvalue]].
