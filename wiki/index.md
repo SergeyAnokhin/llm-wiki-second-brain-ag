@@ -12,6 +12,8 @@ Master catalog of all wiki pages. Updated on every ingest.
 - [[terminal-2|Terminal 2]] — Лог терминала диагностики гибернации с отключением SMB логов.
 - [[terminal-3|Terminal 3]] — Лог терминала диагностики гибернации через SSH.
 - [[rassledovanie-problemy-sna|Расследование Проблемы Сна]] — Итоговый технический отчет о невозможности гибернации.
+- [[nas-hibernation-log|NAS Hibernation Log]] — Скриншот вывода скрипта для диагностики сна и активности дисков.
+- [[nas-hibernation-settings|NAS Hibernation Settings]] — Скриншот настроек спящего режима дисков в панели управления DSM.
 
 
 ## Entities
@@ -28,6 +30,7 @@ Master catalog of all wiki pages. Updated on every ingest.
 - [[dropbox|Dropbox]] — Сервис облачного хранения.
 - [[onedrive|OneDrive]] — Облачное хранилище от Microsoft.
 - [[home-assistant|Home Assistant]] — Платформа автоматизации умного дома.
+- [[nas-log|nas-log]] — Пользовательский скрипт для сбора статистики о спящем режиме.
 
 ## Concepts
 - [[hibernation|Hibernation]] — Режим энергосбережения жестких дисков (спящий режим).

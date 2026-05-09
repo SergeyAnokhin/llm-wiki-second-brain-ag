@@ -183,8 +183,11 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "49654f48d1ea8f0a",
+  "active": "26094811ae284150",
   "lastOpenFiles": [
+    "wiki/entities/nas-log.md",
+    "wiki/sources/nas-hibernation-settings.md",
+    "wiki/sources/nas-hibernation-log.md",
     "wiki/sources/nfs-solution.md",
     "wiki/sources/hibernation-debug.md",
     "wiki/log.md",
@@ -214,9 +217,6 @@
     "wiki/entities/proxmox.md",
     "wiki/sources/rassledovanie-problemy-sna.md",
     "wiki/sources/terminal-3.md",
-    "wiki/sources/terminal-2.md",
-    "wiki/sources/terminal-1.md",
-    "wiki/sources/ssh-connection-verbosity.md",
-    "wiki/sources/synoinfo-conf.md"
+    "wiki/sources/terminal-2.md"
   ]
 }

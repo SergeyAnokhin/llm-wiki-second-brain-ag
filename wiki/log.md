@@ -16,3 +16,7 @@ New entities: [[proxmox|Proxmox]], [[openssh|OpenSSH]], [[synofinder|SynoFinder]
 
 ## [2026-05-09] lint | Health check
 Проверка ссылок (broken links): проанализированы все файлы. Исправлены форматы ссылок (теперь используется `[[slug|Оригинальный Текст]]`), чтобы они точно указывали на существующие файлы без ошибок с регистром или пробелами. Обновлено 19 файлов.
+
+## [2026-05-10] ingest | NAS Hibernation Images
+Processed nas-hibernation-log.png and nas-hibernation-settings.png. Created 2 new source pages and 1 new entity page. Updated 3 existing pages.
+New entities: [[nas-log|nas-log]].
