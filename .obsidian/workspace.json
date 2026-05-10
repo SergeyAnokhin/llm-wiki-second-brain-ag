@@ -185,6 +185,9 @@
   },
   "active": "26094811ae284150",
   "lastOpenFiles": [
+    "wiki/concepts/auto-poweroff.md",
+    "wiki/concepts/deep-sleep.md",
+    "wiki/sources/drive-hibernation-dsm.md",
     "wiki/entities/nas-log.md",
     "wiki/sources/nas-hibernation-settings.md",
     "wiki/sources/nas-hibernation-log.md",
@@ -214,9 +217,6 @@
     "wiki/entities/cloudsync.md",
     "wiki/entities/synofinder.md",
     "wiki/entities/openssh.md",
-    "wiki/entities/proxmox.md",
-    "wiki/sources/rassledovanie-problemy-sna.md",
-    "wiki/sources/terminal-3.md",
-    "wiki/sources/terminal-2.md"
+    "wiki/entities/proxmox.md"
   ]
 }

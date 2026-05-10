@@ -14,7 +14,7 @@ Master catalog of all wiki pages. Updated on every ingest.
 - [[rassledovanie-problemy-sna|Расследование Проблемы Сна]] — Итоговый технический отчет о невозможности гибернации.
 - [[nas-hibernation-log|NAS Hibernation Log]] — Скриншот вывода скрипта для диагностики сна и активности дисков.
 - [[nas-hibernation-settings|NAS Hibernation Settings]] — Скриншот настроек спящего режима дисков в панели управления DSM.
-
+- [[drive-hibernation-dsm|Drive Hibernation DSM]] — Официальное руководство Synology по спящему режиму дисков.
 
 ## Entities
 - [[synoinfo-conf|synoinfo.conf]] — Главный конфигурационный файл DSM.
@@ -43,5 +43,7 @@ Master catalog of all wiki pages. Updated on every ingest.
 - [[public-key-authentication|Public Key Authentication]] — Аутентификация по открытому ключу.
 - [[disk-io|Disk I/O]] — Операции ввода-вывода дисков.
 - [[power-schedule|Power Schedule]] — Расписание питания.
+- [[deep-sleep|Deep Sleep]] — Режим глубокого сна для модулей расширения Synology.
+- [[auto-poweroff|Auto Poweroff]] — Функция автоматического выключения NAS после простоя.
 
 ## Synthesis

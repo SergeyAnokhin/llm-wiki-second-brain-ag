@@ -20,3 +20,7 @@ New entities: [[proxmox|Proxmox]], [[openssh|OpenSSH]], [[synofinder|SynoFinder]
 ## [2026-05-10] ingest | NAS Hibernation Images
 Processed nas-hibernation-log.png and nas-hibernation-settings.png. Created 2 new source pages and 1 new entity page. Updated 3 existing pages.
 New entities: [[nas-log|nas-log]].
+
+## [2026-05-10] ingest | Drive Hibernation DSM
+Processed Drive Hibernation - DSM - Synology Knowledge Center.url. Created 1 new source page and 2 new concept pages. Updated 1 existing concept.
+New concepts: [[deep-sleep|Deep Sleep]], [[auto-poweroff|Auto Poweroff]].
